@@ -1,0 +1,497 @@
+{
+    "roundNo": 131,
+    "mapInfo": {
+        "width": 41,
+        "height": 32,
+        "zones": [
+            {
+                "neutralType": "challengerTaskPoint1",
+                "pos": {
+                    "x": 14,
+                    "y": 14
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "challengerTaskPoint2",
+                "pos": {
+                    "x": 16,
+                    "y": 17
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "challengerTaskPoint2",
+                "pos": {
+                    "x": 17,
+                    "y": 17
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "defenderTaskPoint1",
+                "pos": {
+                    "x": 23,
+                    "y": 14
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "defenderTaskPoint2",
+                "pos": {
+                    "x": 26,
+                    "y": 17
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "defenderTaskPoint2",
+                "pos": {
+                    "x": 27,
+                    "y": 17
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "vendor",
+                "pos": {
+                    "x": 20,
+                    "y": 16
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "weaponShop",
+                "pos": {
+                    "x": 25,
+                    "y": 20
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "challengerVehicle",
+                "pos": {
+                    "x": 15,
+                    "y": 18
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "defenderVehicle",
+                "pos": {
+                    "x": 28,
+                    "y": 18
+                },
+                "remain": null
+            },
+            {
+                "neutralType": "stone",
+                "pos": {
+                    "x": 4,
+                    "y": 24
+                },
+                "remain": 6
+            },
+            {
+                "neutralType": "stone",
+                "pos": {
+                    "x": 14,
+                    "y": 3
+                },
+                "remain": 10
+            },
+            {
+                "neutralType": "iron",
+                "pos": {
+                    "x": 25,
+                    "y": 10
+                },
+                "remain": 3
+            },
+            {
+                "neutralType": "iron",
+                "pos": {
+                    "x": 8,
+                    "y": 28
+                },
+                "remain": 7
+            },
+            {
+                "neutralType": "copper",
+                "pos": {
+                    "x": 22,
+                    "y": 26
+                },
+                "remain": 5
+            },
+            {
+                "neutralType": "copper",
+                "pos": {
+                    "x": 7,
+                    "y": 2
+                },
+                "remain": 9
+            }
+        ]
+    },
+    "teamOur": {
+        "type": "challenger",
+        "teamId": "6324",
+        "teamName": "Challenger",
+        "goldNum": 87,
+        "totalScore": 145,
+        "playerTasks": [
+            {
+                "taskType": "自进化类1",
+                "taskPosition": {
+                    "x": 14,
+                    "y": 14
+                },
+                "coldDownRounds": 0,
+                "scoreReward": 120,
+                "goldReward": 120,
+                "isValid": true,
+                "timeoutRounds": 15
+            },
+            {
+                "taskType": "自进化类2",
+                "taskPosition": {
+                    "x": 16,
+                    "y": 17
+                },
+                "coldDownRounds": 0,
+                "scoreReward": 120,
+                "goldReward": 120,
+                "isValid": true,
+                "timeoutRounds": 15
+            }
+        ],
+        "roles": [
+            {
+                "id": 10013,
+                "pos": {
+                    "x": 10,
+                    "y": 24
+                },
+                "roleType": "station",
+                "health": 1500,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 0,
+                "backpack": [],
+                "level": 1,
+                "isDriving": false
+            },
+            {
+                "id": 10020,
+                "pos": {
+                    "x": 9,
+                    "y": 24
+                },
+                "roleType": "gatling",
+                "health": 1000,
+                "attackPower": 25,
+                "attackRange": 3,
+                "backPackCapability": 0,
+                "backpack": [],
+                "level": 1,
+                "cooldown": 0,
+                "isDriving": false
+            },
+            {
+                "id": 10030,
+                "pos": {
+                    "x": 10,
+                    "y": 25
+                },
+                "roleType": "railgun",
+                "health": 1500,
+                "attackPower": 40,
+                "attackRange": 8,
+                "backPackCapability": 0,
+                "backpack": [],
+                "level": 2,
+                "cooldown": 0,
+                "isDriving": false
+            },
+            {
+                "id": 10040,
+                "pos": {
+                    "x": 9,
+                    "y": 25
+                },
+                "roleType": "rocket",
+                "health": 1000,
+                "attackPower": 20,
+                "attackRange": 10,
+                "backPackCapability": 0,
+                "backpack": [],
+                "level": 1,
+                "cooldown": 0,
+                "isDriving": false
+            },
+            {
+                "id": 10010,
+                "pos": {
+                    "x": 15,
+                    "y": 18
+                },
+                "roleType": "worker",
+                "health": 500,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 100,
+                "backpack": [
+                    "stone",
+                    "iron",
+                    "copper"
+                ],
+                "isDriving": true
+            },
+            {
+                "id": 10012,
+                "pos": {
+                    "x": 10,
+                    "y": 16
+                },
+                "roleType": "worker",
+                "health": 500,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 100,
+                "backpack": [
+                    "stone",
+                    "stone",
+                    "iron"
+                ],
+                "isDriving": false
+            },
+            {
+                "id": 10011,
+                "pos": {
+                    "x": 15,
+                    "y": 14
+                },
+                "roleType": "pioneer",
+                "health": 500,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 40,
+                "backpack": [
+                    "Medicine",
+                    "ThornAmulet",
+                    "IronWhistle",
+                    "FrostPotion"
+                ],
+                "isDriving": false
+            },
+            {
+                "id": 10014,
+                "pos": {
+                    "x": 23,
+                    "y": 26
+                },
+                "roleType": "imp",
+                "health": 500,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 0,
+                "backpack": [],
+                "isDriving": false
+            },
+            {
+                "id": 40000,
+                "pos": {
+                    "x": 5,
+                    "y": 20
+                },
+                "roleType": "wall",
+                "health": 620,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 0,
+                "backpack": [],
+                "level": 1,
+                "isDriving": false
+            },
+            {
+                "id": 40001,
+                "pos": {
+                    "x": 5,
+                    "y": 21
+                },
+                "roleType": "wall",
+                "health": 1000,
+                "attackPower": 0,
+                "attackRange": 0,
+                "backPackCapability": 0,
+                "backpack": [],
+                "level": 1,
+                "isDriving": false
+            }
+        ],
+        "summonRobotList": []
+    },
+    "teamEnemy": {
+        "roles": [
+            {
+                "id": 20013,
+                "pos": {
+                    "x": 30,
+                    "y": 10
+                },
+                "roleType": "station",
+                "health": 1500,
+                "attackPower": 0,
+                "attackRange": 0,
+                "level": 1
+            },
+            {
+                "id": 41000,
+                "pos": {
+                    "x": 28,
+                    "y": 7
+                },
+                "roleType": "wall",
+                "health": 1000,
+                "attackPower": 0,
+                "attackRange": 0,
+                "level": 1
+            },
+            {
+                "id": 20014,
+                "pos": {
+                    "x": 13,
+                    "y": 4
+                },
+                "roleType": "imp",
+                "health": 500,
+                "attackPower": 0,
+                "attackRange": 0
+            }
+        ]
+    },
+    "phaseTask": "",
+    "lastRoundRoleActionResults": {
+        "10010": true,
+        "10011": true,
+        "10012": false,
+        "10013": true,
+        "10014": true,
+        "10020": true,
+        "10030": true,
+        "10040": false
+    },
+    "lastSummonTreasureResult": 0,
+    "llmResp": "",
+    "robot": {
+        "roles": []
+    },
+    "worldNews": {
+        "officialNews": "今日无重大新闻",
+        "folkLegends": "村里最年长的采药人昨天过世了，活了九十三岁。他孙子在整理遗物时发现了一本发霉的笔记，最后一页潦草地写着：\"西部有一石门，门需三钥\"下面还画了一个圆圈，圆圈里画了三道杠。家里人看不懂，打算当废纸烧了。南边渡口的船夫抱怨最近水位下降得厉害，船底已经刮了三次礁石了。"
+    },
+    "lastCmdResult": "",
+    "vendorShopList": [
+        {
+            "name": "stone",
+            "price": 2
+        },
+        {
+            "name": "iron",
+            "price": 5
+        },
+        {
+            "name": "copper",
+            "price": 8
+        }
+    ],
+    "weaponShopList": [
+        {
+            "name": "WeaponUpgradeVoucher1",
+            "price": 100
+        },
+        {
+            "name": "WeaponUpgradeVoucher2",
+            "price": 150
+        },
+        {
+            "name": "WallUpgradeVoucher1",
+            "price": 20
+        },
+        {
+            "name": "WallUpgradeVoucher2",
+            "price": 30
+        },
+        {
+            "name": "StationUpgradeVoucher1",
+            "price": 100
+        },
+        {
+            "name": "StationUpgradeVoucher2",
+            "price": 150
+        },
+        {
+            "name": "WallFixer",
+            "price": 15
+        },
+        {
+            "name": "Medicine",
+            "price": 10
+        },
+        {
+            "name": "DizzyWeapon",
+            "price": 50
+        },
+        {
+            "name": "Bomb",
+            "price": 50
+        },
+        {
+            "name": "SmallRobotSummonOrder",
+            "price": 15
+        },
+        {
+            "name": "MiddleRobotSummonOrder",
+            "price": 20
+        },
+        {
+            "name": "LargeRobotSummonOrder",
+            "price": 70
+        },
+        {
+            "name": "BossRobotSummonOrder",
+            "price": 120
+        },
+        {
+            "name": "AcientTablet",
+            "price": 10
+        },
+        {
+            "name": "StarSand",
+            "price": 10
+        },
+        {
+            "name": "FlameBreath",
+            "price": 10
+        },
+        {
+            "name": "FrostPotion",
+            "price": 10
+        },
+        {
+            "name": "ThornAmulet",
+            "price": 10
+        },
+        {
+            "name": "IronWhistle",
+            "price": 10
+        }
+    ],
+    "errors": [
+        {
+            "errorCode": 2,
+            "description": "xxx"
+        }
+    ]
+}

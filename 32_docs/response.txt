@@ -1,0 +1,203 @@
+{
+    "roleCommandMap": {
+        "10010": {
+            "action": "move",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10020": {
+            "action": "attack",
+            "controllerId": "10010",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                },
+                {
+                    "x": 30,
+                    "y": 8
+                }
+            ]
+        },
+        "10030": {
+            "action": "attack",
+            "controllerId": "10011",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "30005": {
+            "action": "move",
+            "targetPos": [
+                {
+                    "x": 4,
+                    "y": 6
+                }
+            ]
+        },
+        "30005": {
+            "action": "attack",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10011": {
+            "action": "sell",
+            "name": "stone",
+            "num": 3
+        },
+        "10012": {
+            "action": "buy",
+            "name": "Medicine",
+            "num": 1
+        },
+        "10010": {
+            "action": "buy",
+            "name": "SmallRobotSummonOrder",
+            "num": 2
+        },
+        "10010": {
+            "action": "build",
+            "name": "wall",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10012": {
+            "action": "build",
+            "name": "gatling",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10012": {
+            "action": "remove",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10011": {
+            "action": "acceptTask"
+        },
+        "10011": {
+            "action": "submitAnswer",
+            "taskAnswer": "42"
+        },
+        "10011": {
+            "action": "summonTreasure",
+            "targetPos": [
+                {
+                    "x": 20,
+                    "y": 19
+                }
+            ],
+            "item": ["ThornAmulet", "IronWhistle", "FrostPotion"]
+        },
+        "10010": {
+            "action": "use",
+            "name": "Medicine"
+        },
+        "10010": {
+            "action": "use",
+            "name": "WallFixer",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10010": {
+            "action": "use",
+            "name": "DizzyWeapon",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10010": {
+            "action": "use",
+            "name": "Bomb",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10010": {
+            "action": "use",
+            "name": "SmallRobotSummonOrder",
+            "targetPos": [
+                {
+                    "x": 12,
+                    "y": 20
+                }
+            ]
+        },
+        "10010": {
+            "action": "use",
+            "name": "WeaponUpgradeVoucher1",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10010": {
+            "action": "drop",
+            "name": "stone"
+        },
+        "10010": {
+            "action": "collect",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10014": {
+            "action": "destroy",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        },
+        "10010": {
+            "action": "catch",
+            "targetPos": [
+                {
+                    "x": 29,
+                    "y": 7
+                }
+            ]
+        }
+    },
+    "prompt": "",
+    "executeCmd": ""
+}
